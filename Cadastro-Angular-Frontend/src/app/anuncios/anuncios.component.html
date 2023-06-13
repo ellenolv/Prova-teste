@@ -1,1 +1,27 @@
-<p>anuncios works!</p>
+<div class="container">
+    
+    <h1>Cadastro de Anuncios</h1>
+
+    <form [formGroup]="formGroupAnuncios">
+        <div class="mb-3">
+          <label for="titulo" class="form-label">Título: </label>
+          <input type="text" class="form-control" id="titulo" formControlName="titulo">
+          
+        </div>
+        <div class="mb-3">
+            <label for="descricao" class="form-label">Descrição: </label>
+            <textarea class="form-control" id="descricao" rows="3" formControlName="descricao"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="Marca" class="form-label">Marca: </label>
+            <input type="text" class="form-control" id="marca" formControlName="marca" >
+        </div>
+        <div class="mb-3">
+            <label for="valor" class="form-label">Valor: </label>
+            <input type="number" class="form-control" id="valor" formControlName="valor">
+        </div>
+        <button type="" class="btn btn-primary" (click)="save()">Cadastrar</button>
+      </form>
+    
+    
+</div>

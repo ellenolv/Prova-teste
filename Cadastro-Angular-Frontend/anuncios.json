@@ -1,0 +1,25 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "marca": "Cacau Show",
+      "titulo": "Promoção de Barra de Chocolate",
+      "descricao": "Na compra de uma barra de chocolate La creme de la creme, ganhe uma caica de chocolate",
+      "valor": 12.5
+    },
+    {
+      "id": 2,
+      "marca": "Nestle",
+      "titulo": "Cesta de café da manhã",
+      "descricao": "Promoção de dia das mães: Delivery Grátis",
+      "valor": 15.5
+    },
+    {
+      "id": 3,
+      "titulo": "Promoção!  Compre 2 e leve 3",
+      "descricao": "Na compra de 2 Barras de chocolate LaCreme ganhe a terceira de graça",
+      "marca": "Cacau Show",
+      "valor": 15.9
+    }
+  ]
+}
