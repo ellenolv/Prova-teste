@@ -20,8 +20,30 @@
             <label for="valor" class="form-label">Valor: </label>
             <input type="number" class="form-control" id="valor" formControlName="valor">
         </div>
+        <div class="mb-3">
+            <label for="url" class="form-label">Insira a URL da imagem: </label>
+            <input type="string" class="form-control" id="url" formControlName="url">
+        </div>
         <button type="" class="btn btn-primary" (click)="save()">Cadastrar</button>
       </form>
     
     
+</div>
+
+
+<div class="container">
+    <div class="grid gap-3" *ngFor="let anuncio of anuncios">
+        <div class="p-2 g-col-6">
+            <div class="card" style="width: 18rem;">
+                <img [src]="anuncio.url" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{anuncio.titulo}}</h5>
+                  <p class="card-text">{{anuncio.descricao}}</p>
+                  <p class="card-text">{{anuncio.marca}}</p>
+                  <p class="card-text">R$ {{anuncio.valor}}</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+      </div>
 </div>

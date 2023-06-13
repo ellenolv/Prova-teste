@@ -2,24 +2,27 @@
   "anuncios": [
     {
       "id": 1,
-      "marca": "Cacau Show",
-      "titulo": "Promoção de Barra de Chocolate",
-      "descricao": "Na compra de uma barra de chocolate La creme de la creme, ganhe uma caica de chocolate",
-      "valor": 12.5
-    },
-    {
-      "id": 2,
-      "marca": "Nestle",
-      "titulo": "Cesta de café da manhã",
-      "descricao": "Promoção de dia das mães: Delivery Grátis",
-      "valor": 15.5
-    },
-    {
-      "id": 3,
       "titulo": "Promoção!  Compre 2 e leve 3",
       "descricao": "Na compra de 2 Barras de chocolate LaCreme ganhe a terceira de graça",
       "marca": "Cacau Show",
-      "valor": 15.9
+      "valor": 15.9,
+      "url": "https://cf.shopee.com.br/file/br-11134207-7qukw-lflf8xjjyvby13"
+    },
+    {
+      "id": 2,
+      "titulo": "Palito Premiado: Promoção Achou Ganhou com Prêmios Exclusivos na Cacau Show Pedro II !!!",
+      "descricao": "A cada compra de Gelato você tem a chance de tirar o palito premiado e, assim, ganhar um dos prêmios selecionados:\n\n1 trufa 30gr\n1 tablete de 100gr\n1 Gelato de sua escolha",
+      "marca": "Cacau Show",
+      "valor": 11.9,
+      "url": "https://www.portalp2.com/images/noticias/2783/12f9b8d8e242ce4d9a080b49bb5318f8.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Kit Ovo de Páscoa",
+      "descricao": "Kit Ovo de Páscoa Diamante Negro e Laka 500g + Caixa De Variedades Chocolates Lacta Favoritos 250,6g",
+      "marca": "Lacta",
+      "valor": 97.99,
+      "url": "https://mdztatix.vtexassets.com/arquivos/ids/159272-800-auto?v=638128663803230000&width=800&height=auto&aspect=true"
     }
   ]
 }

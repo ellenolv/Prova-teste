@@ -19,7 +19,8 @@ export class AnunciosComponent  {
       titulo: '',
       descricao: '',
       marca: '',
-      valor: ''
+      valor: '',
+      url:''
     });
   }
 
@@ -47,6 +48,7 @@ export class AnunciosComponent  {
      );
   }
   
+ 
    
   
 }
